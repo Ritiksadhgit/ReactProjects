@@ -1,7 +1,7 @@
 
 import { color } from 'motion';
 import CircularText from './CircularText';
-import './CircularText.css';
+import './Circulartext.css';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   text="REACT*BITS*COMPONENTS*"
   onHover="speedUp"
   spinDuration={20}
-  className="circular-text"
+  
 
   
 />
