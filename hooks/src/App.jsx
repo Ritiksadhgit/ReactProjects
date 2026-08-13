@@ -1,11 +1,14 @@
 import { useState } from "react"
+import Contact from "./contact";
 
 function App(){
   // let [variable.function]=useState(initial value/state);
   let[digit,digitfun]=useState(200);
   let[name,setName]=useState("Harshit");
-  let[color,setcolor]=useState("red")
-  let[counter,setcount]=useState(0)
+  let[color,setcolor]=useState("red");
+  let[counter,setcount]=useState(0);
+  let[person,setPerson]=useState({name:"Ritik",age:12,contact:123});
+  let[arr,aarset]=useState([3231,3243]);
 
   function change(){
     digitfun(400);
@@ -28,7 +31,10 @@ function App(){
 
     <h1>{counter}</h1>
     <button onClick={()=>{setcount(counter-1)}}>Decrease</button>   <button onClick={()=>{setcount(counter+1)}}>Increase</button>
-    </div>
+    <h1>My Name {person.name}</h1>
+    <h1>Array element is:{arr[1]}</h1>
+    <Contact name="Ankit"/>
+        </div>
     </>
   )
 }
