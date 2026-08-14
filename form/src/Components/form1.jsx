@@ -12,7 +12,7 @@ function Form1() {
     }
 
     function frmSubmit(event) {
-        event.preventDefault();
+        event.preventDefault();       //page reloading rokne ke liye
 
         console.log("Name:", name);
         console.log("City:", city);
