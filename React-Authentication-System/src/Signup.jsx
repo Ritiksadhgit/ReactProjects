@@ -35,13 +35,13 @@ return(
     <form onSubmit={submit}>
 
         <label htmlFor="">Username</label>
-        <input type="text" name="username" onChange={hinput}/><br />
+        <input type="text" name="username" onChange={hinput} placeholder="Enter Username"/><br />
 
          <label htmlFor="">Email</label>
-        <input type="text" name="email" onChange={hinput}/> <br />
+        <input type="text" name="email" onChange={hinput} placeholder="Enter User email"/> <br />
 
         <label htmlFor="">PassWord</label>
-        <input type="text" name="pass" onChange={hinput}/>
+        <input type="text" name="pass" onChange={hinput} placeholder="Enter Password"/>
         <input type="submit" />
     </form>
     </>

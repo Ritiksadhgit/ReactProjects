@@ -54,7 +54,7 @@ function Login() {
                 <input
                     type="text"
                     name="email"
-                    onChange={logininput}
+                    onChange={logininput} placeholder="Enter email address"
                 />
 
                 <br /><br />
@@ -63,7 +63,7 @@ function Login() {
                 <input
                     type="password"
                     name="pass"
-                    onChange={logininput}
+                    onChange={logininput} placeholder="Enter your email"
                 />
 
                 <br /><br />
