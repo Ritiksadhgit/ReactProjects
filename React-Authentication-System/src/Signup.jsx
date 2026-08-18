@@ -15,6 +15,15 @@ function hinput(e){
 function submit(e){
     e.preventDefault();
     console.log(frmdata);
+if (
+        !frmdata.username ||
+        !frmdata.email ||
+        !frmdata.pass
+    ) {
+        alert("Please fill all fields");
+        return;
+    }
+
     localStorage.setItem("userdata",JSON.stringify(frmdata))
     navigate("/login");
 }
