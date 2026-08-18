@@ -23,6 +23,10 @@ function Login() {
 
         console.log(loginfrm);
 
+         if (!loginfrm.email || !loginfrm.pass) {
+        alert("Please enter email and password");
+        return;
+    }
 
         const localdata = JSON.parse(
             localStorage.getItem("userdata")
