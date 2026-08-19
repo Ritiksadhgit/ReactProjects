@@ -8,6 +8,7 @@ function Home() {
             <Navbar />
 
             <h1>Home Page</h1>
+            
 
             <Profile />
         </>
