@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <>
-            <h1>Welcome, {user}</h1>
+            <h1>Welcome to Dashboard, {user}</h1>
             <hr />
         </>
     );
